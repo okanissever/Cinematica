@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tıklanılan itemin rengi -->
+    <item android:color="#5494E1" android:state_checked="true" />
+    <!-- Diğer itemlerin rengi -->
+    <item android:color="@color/g_gray" />
+</selector>

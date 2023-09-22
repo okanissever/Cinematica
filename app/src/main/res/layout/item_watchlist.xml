@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main"
+    android:layout_marginTop="15dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_margin="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="15dp"
+        >
+        <ImageView
+            android:id="@+id/imgMovie"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/posterplaceholder"
+            android:scaleType="centerCrop"
+            android:background="@color/main"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/materialCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMovieName"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spiderman"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:fontFamily="@font/google_sans_bold"
+            android:textSize="19sp"/>
+        <TextView
+            android:id="@+id/tvMovieStar"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 7.6"
+            android:drawableStart="@drawable/baseline_star_rate_24"
+            android:drawableTint="@color/orange"
+            android:textColor="@color/white"
+            android:fontFamily="@font/google_sans_medium"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+            <TextView
+            android:id="@+id/tvMovieGenre"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Action"
+            android:drawableStart="@drawable/outline_movie_24"
+            android:drawableTint="@color/white"
+                android:drawablePadding="2dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/google_sans_regular"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvMovieDate"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 2019"
+            android:drawableStart="@drawable/baseline_calendar_today_24"
+            android:drawableTint="@color/white"
+            android:drawablePadding="2dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/google_sans_regular"
+            android:textSize="16sp"
+            android:gravity="center"
+            /><TextView
+            android:id="@+id/tvMovieTime"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 139 Minutes"
+            android:drawableStart="@drawable/baseline_access_time_24"
+            android:drawableTint="@color/white"
+            android:drawablePadding="2dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/google_sans_regular"
+            android:textSize="16sp"
+            android:gravity="center"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

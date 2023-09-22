@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main">
+
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:src="@drawable/user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/ratingTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/imgUser"
+        app:layout_constraintEnd_toEndOf="@id/imgUser"
+        app:layout_constraintTop_toBottomOf="@id/imgUser"
+        android:text="6.3"
+        android:textSize="19sp"
+        android:textColor="#4E8FDD"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/google_sans_regular"
+        />
+
+    <TextView
+        android:id="@+id/authorTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/imgUser"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="25dp"
+        android:text="Chris Sawin"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:fontFamily="@font/google_sans_bold"/>
+
+    <TextView
+        android:id="@+id/contentTV"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/authorTV"
+        app:layout_constraintTop_toBottomOf="@id/authorTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="@font/google_sans_regular"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

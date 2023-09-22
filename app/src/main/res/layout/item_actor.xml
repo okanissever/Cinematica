@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/main">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgActor"
+        android:layout_width="118dp"
+        android:layout_height="118dp"
+        android:src="@drawable/spiderman"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        />
+
+    <TextView
+        android:id="@+id/actorNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tom Holland"
+        android:layout_gravity="center"
+        android:fontFamily="@font/google_sans_medium"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        />
+
+</LinearLayout>

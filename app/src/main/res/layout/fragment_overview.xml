@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.detailsfragment.Overviewfragment"
+    android:background="@color/main"
+    >
+
+    <TextView
+        android:id="@+id/overViewTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Habitasse platea dictumst quisque sagittis purus sit amet. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Tristique senectus et netus et malesuada fames ac. Ultrices mi tempus imperdiet nulla. Nisi quis eleifend quam adipiscing. Vestibulum morbi blandit cursus risus. Vehicula ipsum a arcu cursus vitae. Est ante in nibh mauris."
+        android:textColor="@color/white"
+        android:fontFamily="@font/google_sans_regular"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
